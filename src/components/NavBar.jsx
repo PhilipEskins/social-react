@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from 'react-router-dom';
+
 
 
 function NavBar(props){
@@ -21,11 +23,11 @@ function NavBar(props){
 
   return(
     <div style={styles}>
-      <button style={buttonStyles}>Home</button>
+      <Link to = "/"><button style={buttonStyles}>Home</button></Link>
       <button style={buttonStyles}>Notifications</button>
       <button style={buttonStyles}>Messages</button>
       <input></input>
-      <button style={buttonStyles}>Tweet</button>
+      <Link to ="/routertest"><button style={buttonStyles}>Tweet</button></Link>
     </div>
   )
 }

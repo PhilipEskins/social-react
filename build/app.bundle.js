@@ -60,7 +60,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "a8a1bea48d855098f813"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "350c8658552587f6f0c3"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -42876,9 +42876,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(App, "App", "/Users/Guest/Desktop/React-webpack-v1/src/components/App.jsx");
+  __REACT_HOT_LOADER__.register(App, "App", "/Users/Guest/Desktop/react-work-/src/components/App.jsx");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "/Users/Guest/Desktop/React-webpack-v1/src/components/App.jsx");
+  __REACT_HOT_LOADER__.register(_default, "default", "/Users/Guest/Desktop/react-work-/src/components/App.jsx");
 }();
 
 ;
@@ -42920,9 +42920,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(Bio, "Bio", "/Users/Guest/Desktop/React-webpack-v1/src/components/Bio.jsx");
+  __REACT_HOT_LOADER__.register(Bio, "Bio", "/Users/Guest/Desktop/react-work-/src/components/Bio.jsx");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "/Users/Guest/Desktop/React-webpack-v1/src/components/Bio.jsx");
+  __REACT_HOT_LOADER__.register(_default, "default", "/Users/Guest/Desktop/react-work-/src/components/Bio.jsx");
 }();
 
 ;
@@ -42959,9 +42959,18 @@ function Feed() {
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__FeedComponent__["a" /* default */], {
       picture: __WEBPACK_IMPORTED_MODULE_3__assets_images_pic_jpg___default.a,
       firstName: "Mark",
-      lastName: "Zuk" }),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__FeedComponent__["a" /* default */], null),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__FeedComponent__["a" /* default */], null)
+      lastName: "Zuckerberg",
+      text: "Don't mess with the Zucc" }),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__FeedComponent__["a" /* default */], {
+      picture: __WEBPACK_IMPORTED_MODULE_3__assets_images_pic_jpg___default.a,
+      firstName: "Markus",
+      lastName: "Zuckrelius",
+      text: "To Zucc or not to Zucc, that is the question" }),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__FeedComponent__["a" /* default */], {
+      picture: __WEBPACK_IMPORTED_MODULE_3__assets_images_pic_jpg___default.a,
+      firstName: "Markus",
+      lastName: "Zuckrelius",
+      text: "To Zucc or not to Zucc, that is the question" })
   );
 }
 
@@ -42974,9 +42983,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(Feed, "Feed", "/Users/Guest/Desktop/React-webpack-v1/src/components/Feed.jsx");
+  __REACT_HOT_LOADER__.register(Feed, "Feed", "/Users/Guest/Desktop/react-work-/src/components/Feed.jsx");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "/Users/Guest/Desktop/React-webpack-v1/src/components/Feed.jsx");
+  __REACT_HOT_LOADER__.register(_default, "default", "/Users/Guest/Desktop/react-work-/src/components/Feed.jsx");
 }();
 
 ;
@@ -43061,9 +43070,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(FeedComponent, "FeedComponent", "/Users/Guest/Desktop/React-webpack-v1/src/components/FeedComponent.jsx");
+  __REACT_HOT_LOADER__.register(FeedComponent, "FeedComponent", "/Users/Guest/Desktop/react-work-/src/components/FeedComponent.jsx");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "/Users/Guest/Desktop/React-webpack-v1/src/components/FeedComponent.jsx");
+  __REACT_HOT_LOADER__.register(_default, "default", "/Users/Guest/Desktop/react-work-/src/components/FeedComponent.jsx");
 }();
 
 ;
@@ -43104,9 +43113,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(LeftColumn, "LeftColumn", "/Users/Guest/Desktop/React-webpack-v1/src/components/LeftColumn.jsx");
+  __REACT_HOT_LOADER__.register(LeftColumn, "LeftColumn", "/Users/Guest/Desktop/react-work-/src/components/LeftColumn.jsx");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "/Users/Guest/Desktop/React-webpack-v1/src/components/LeftColumn.jsx");
+  __REACT_HOT_LOADER__.register(_default, "default", "/Users/Guest/Desktop/react-work-/src/components/LeftColumn.jsx");
 }();
 
 ;
@@ -43151,9 +43160,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(MainContainer, "MainContainer", "/Users/Guest/Desktop/React-webpack-v1/src/components/MainContainer.jsx");
+  __REACT_HOT_LOADER__.register(MainContainer, "MainContainer", "/Users/Guest/Desktop/react-work-/src/components/MainContainer.jsx");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "/Users/Guest/Desktop/React-webpack-v1/src/components/MainContainer.jsx");
+  __REACT_HOT_LOADER__.register(_default, "default", "/Users/Guest/Desktop/react-work-/src/components/MainContainer.jsx");
 }();
 
 ;
@@ -43222,9 +43231,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(NavBar, "NavBar", "/Users/Guest/Desktop/React-webpack-v1/src/components/NavBar.jsx");
+  __REACT_HOT_LOADER__.register(NavBar, "NavBar", "/Users/Guest/Desktop/react-work-/src/components/NavBar.jsx");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "/Users/Guest/Desktop/React-webpack-v1/src/components/NavBar.jsx");
+  __REACT_HOT_LOADER__.register(_default, "default", "/Users/Guest/Desktop/react-work-/src/components/NavBar.jsx");
 }();
 
 ;
@@ -43282,9 +43291,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(NavFeed, "NavFeed", "/Users/Guest/Desktop/React-webpack-v1/src/components/NavFeed.jsx");
+  __REACT_HOT_LOADER__.register(NavFeed, "NavFeed", "/Users/Guest/Desktop/react-work-/src/components/NavFeed.jsx");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "/Users/Guest/Desktop/React-webpack-v1/src/components/NavFeed.jsx");
+  __REACT_HOT_LOADER__.register(_default, "default", "/Users/Guest/Desktop/react-work-/src/components/NavFeed.jsx");
 }();
 
 ;
@@ -43375,9 +43384,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ProfileCard, "ProfileCard", "/Users/Guest/Desktop/React-webpack-v1/src/components/ProfileCard.jsx");
+  __REACT_HOT_LOADER__.register(ProfileCard, "ProfileCard", "/Users/Guest/Desktop/react-work-/src/components/ProfileCard.jsx");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "/Users/Guest/Desktop/React-webpack-v1/src/components/ProfileCard.jsx");
+  __REACT_HOT_LOADER__.register(_default, "default", "/Users/Guest/Desktop/react-work-/src/components/ProfileCard.jsx");
 }();
 
 ;
@@ -43422,9 +43431,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(RightBar, "RightBar", "/Users/Guest/Desktop/React-webpack-v1/src/components/RightBar.jsx");
+  __REACT_HOT_LOADER__.register(RightBar, "RightBar", "/Users/Guest/Desktop/react-work-/src/components/RightBar.jsx");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "/Users/Guest/Desktop/React-webpack-v1/src/components/RightBar.jsx");
+  __REACT_HOT_LOADER__.register(_default, "default", "/Users/Guest/Desktop/react-work-/src/components/RightBar.jsx");
 }();
 
 ;
@@ -43499,9 +43508,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(RightFeedComponent, "RightFeedComponent", "/Users/Guest/Desktop/React-webpack-v1/src/components/RightFeedComponent.jsx");
+  __REACT_HOT_LOADER__.register(RightFeedComponent, "RightFeedComponent", "/Users/Guest/Desktop/react-work-/src/components/RightFeedComponent.jsx");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "/Users/Guest/Desktop/React-webpack-v1/src/components/RightFeedComponent.jsx");
+  __REACT_HOT_LOADER__.register(_default, "default", "/Users/Guest/Desktop/react-work-/src/components/RightFeedComponent.jsx");
 }();
 
 ;
@@ -43547,7 +43556,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(render, 'render', '/Users/Guest/Desktop/React-webpack-v1/src/index.jsx');
+  __REACT_HOT_LOADER__.register(render, 'render', '/Users/Guest/Desktop/react-work-/src/index.jsx');
 }();
 
 ;

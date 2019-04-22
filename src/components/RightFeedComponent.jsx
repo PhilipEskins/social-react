@@ -1,7 +1,8 @@
 import React from "react";
+import PropTypes from 'prop-types';
 import pic from "../assets/images/pic.jpg";
 
-function RightFeedComponent(prop){
+function RightFeedComponent(props){
   const style = {
     display:"flex",
     justifyContent: "space-around",
@@ -28,15 +29,19 @@ function RightFeedComponent(prop){
     flexDirection: "column",
 
   }
-return(
-<div style = {style}>
-  <img src = {pic} style = {image}/>
-    <div style = { column}>
-      <p> Trust Zuck</p>
-      <button style = {buttonStyle}>button</button>
-    </div>
-</div>
-)
+  return(
+  <div style = {style}>
+    <img src = {pic} style = {image}/>
+      <div style = { column}>
+        <p> Trust Zuck</p>
+        <button onClick={props.onTextVisible} style = {buttonStyle}>button</button>
+      </div>
+  </div>
+  )
 }
+
+RightFeedComponent.propTypes = {
+  onTextVisible: PropTypes.func
+};
 
 export default RightFeedComponent;

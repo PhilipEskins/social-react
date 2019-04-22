@@ -1,5 +1,6 @@
 import React from "react";
 import RightFeedComponent from "./RightFeedComponent";
+import PropTypes from 'prop-types';
 
 function RightBar(props){
   const style = {
@@ -12,11 +13,13 @@ function RightBar(props){
   }
   return(
     <div style= {style}>RightBar
-      <RightFeedComponent/>
-      <RightFeedComponent/>
-      <RightFeedComponent/>
+      <RightFeedComponent onTextVisible={props.onTextVisible} />
     </div>
   )
 }
+
+RightBar.propTypes = {
+  onTextvisible: PropTypes.func
+};
 
 export default RightBar;
