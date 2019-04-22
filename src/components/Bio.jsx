@@ -9,7 +9,6 @@ function Bio (props) {
     border: "1px solid gray",
     marginTop: "100px"
   }
-  console.log(props.onTextVisible);
   let visibleText = null;
   if (props.onTextVisible) {
     visibleText = <h3> I want this to appear only when the button is clicked</h3>;

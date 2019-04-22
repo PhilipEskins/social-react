@@ -4,6 +4,23 @@ import NavFeed from "./NavFeed";
 import pic from "../assets/images/pic.jpg";
 
 function Feed(){
+
+  let posts = [
+    {
+      picture: {pic},
+      firstName: "Mark",
+      lastName: "ZuckerBerg",
+      text: "Don't mess with the Zucc"
+    },
+    {
+      picture: {pic},
+      firstName: "Mark",
+      lastName: "ZuckerBerg",
+      text: "To Zucc or not to Zucc, that is the question"
+    }
+  ];
+  console.log(posts[0].picture);
+
   const style = {
     display: "flex",
     flexDirection: "column",
@@ -14,23 +31,15 @@ function Feed(){
   return(
     <div style={style}>
     <NavFeed/>
-    <FeedComponent
-      picture={pic}
-      firstName = "Mark"
-      lastName = "Zuckerberg"
-      text = "Don't mess with the Zucc"/>
-    <FeedComponent
-      picture={pic}
-      firstName = "Markus"
-      lastName = "Zuckrelius"
-      text="To Zucc or not to Zucc, that is the question"/>
-    <FeedComponent
-      picture={pic}
-      firstName = "Markus"
-      lastName = "Zuckrelius"
-      text="To Zucc or not to Zucc, that is the question"/>
+    {posts.map((post, index) =>
+      <FeedComponent picture = {post.picture}
+        firstName = {post.firstName}
+        lastName = {post.lastName}
+        text = {post.text} />
+    )}
+
     </div>
   )
 }
 
-export default Feed
+export default Feed;

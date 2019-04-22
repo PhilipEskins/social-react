@@ -17,7 +17,6 @@ class MainContainer extends React.Component {
     this.setState( prevState => ({
       textVisibleOnPage: !prevState.textVisibleOnPage
     }));
-    console.log(this.state.textVisibleOnPage);
   }
 
   render(){
