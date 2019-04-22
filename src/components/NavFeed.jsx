@@ -1,7 +1,10 @@
 import React from "react";
+import PropTypes from 'prop-types';
 
 
-function NavFeed() {
+function NavFeed(props) {
+  let text = null;
+
   const style =  {
     display: "flex",
     alignItems: "center",
@@ -25,16 +28,30 @@ function NavFeed() {
     width: "300px",
     border: "1px blue solid",
     color: "blue"
+
+
+  }
+
+  function handleNewPostSubmission(event){
+    event.preventDefault();
+    props.onNewPost({firstName: "Mark", lastName: "ZuckerBerg", text: text.value});
+    text.value = '';
   }
 
   return(
     <div style = {style} >
-      <div style = {square}>
-      </div>
-      <input style = {input} placeholder = "What's happening?"></input>
-
+      <form onSubmit={handleNewPostSubmission}>
+        <div style = {square}>
+        </div>
+        <input style = {input} placeholder = "What's happening?" id="text" ref={(input) => {text = input;}}></input>
+        <button type = "submit">Post</button>
+      </form>
     </div>
   )
+}
+
+NavFeed.propTypes = {
+  posts: PropTypes.func
 }
 
 export default NavFeed;

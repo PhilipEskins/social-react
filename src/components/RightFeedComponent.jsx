@@ -11,6 +11,7 @@ function RightFeedComponent(props){
     // height: "50px"
 
   }
+
   const buttonStyle = {
     marginRight: "5px",
     backgroundColor: "#7961ff",
@@ -33,6 +34,7 @@ function RightFeedComponent(props){
   <div style = {style}>
     <img src = {pic} style = {image}/>
       <div style = { column}>
+
         <p> Trust Zuck</p>
         <button onClick={props.onTextVisible} style = {buttonStyle}>button</button>
       </div>

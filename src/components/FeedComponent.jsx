@@ -26,7 +26,7 @@ function FeedComponent(props){
   return (
     <div style={style}>
       <div>
-        <img style={image} src={props.picture}/>
+        <img style={image} src={pic}/>
       </div>
         <div style={column}>
           <h3>{props.firstName} {props.lastName}</h3>
@@ -37,7 +37,6 @@ function FeedComponent(props){
 }
 
 FeedComponent.propTypes = {
-  picture: PropTypes.string,
   firstName: PropTypes.string,
   lastName: PropTypes.string,
   text: PropTypes.string
